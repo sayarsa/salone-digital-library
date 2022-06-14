@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Get Started</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    span {
+      font: 700 3em/1 "Oswald", sans-serif;
+      letter-spacing: 0;
+      padding: 0.25em 0 0.325em;
+      display: block;
+      margin: 0 auto;
+      text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+
+      /* Clip Background Image */
+
+      background: url(./assets/img/animated-text-fill.png) repeat-y;
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      /* Animate Background Image */
+
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: aitf 80s linear infinite;
+
+      /* Activate hardware acceleration for smoother animations */
+
+      -webkit-transform: translate3d(0, 0, 0);
+      -webkit-backface-visibility: hidden;
+    }
+
+    /* Animate Background Image */
+
+    @-webkit-keyframes aitf {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <span
+        style="
+          color: #fff;
+          font-family: 'Noto Sans Myanmar', sans-serif;
+          margin-bottom: 50px;
+        "
+        >စလုံး စာကြည့်တိုက်မှကြိုဆိုပါတယ်</span
+      >
+      <a href="./main_page.html"><button class="button">Get Started</button></a>
+    </div>
+    <script src="" async defer></script>
+  </body>
+</html>
